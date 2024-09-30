@@ -2,6 +2,7 @@ import './App.css'
 import Register from './Register'
 import Login from './Login'
 import Home from './Home'
+import Header from './Header'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { useState } from 'react'
 
@@ -26,6 +27,7 @@ const App = () => {
 
   return (
     <main className='App'>
+      <Header />
       <BrowserRouter >
         <Routes >
           <Route path='/' element={<Register

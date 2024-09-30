@@ -5,7 +5,7 @@ const Home = ({ props: { user } }) => {
 
 
     return (
-        <section>
+        <section className="home">
             <h1>Welcome {userName[0].toUpperCase() + userName.slice(1)}!</h1>
             <p>
                 <a href="/login">Sign Out</a>
