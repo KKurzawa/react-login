@@ -62,7 +62,7 @@ const Login = ({ props: { user, setUser, validName, setValidName, email, setEmai
 
     return (
         <section className="">
-            <h1>Login</h1>
+            <h1>Sign In</h1>
             <form onSubmit={handleSubmit}>
                 <label htmlFor="user">
                     Username
